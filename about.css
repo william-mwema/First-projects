@@ -1,0 +1,117 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,'Times New Roman', Times, serif;
+}
+body{
+    background: #e1eaf4; 
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+}
+.heading{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(118, 100, 1);
+margin-top: 35px;
+}
+.social-icons{
+    position: fixed;
+      flex-direction: column;  
+      width: 0;
+      margin-top: 200px;
+      margin-left: 10px;
+    }
+    .social-icons img{
+    padding-top: 5px;
+       border: none;
+        width: 30px;
+        height: 35px;
+        margin-top: 14px;
+    }
+  
+.abt{
+    border-width: 1px;
+    margin-top: 68px;
+}
+.container{
+    width: 100%;
+   display: flex;
+    padding: 15px 25px;
+}
+.hero-content{
+    margin: 46px 35px;
+    padding: 16px;
+}
+.hero-content h2{
+    position: relative;
+    font-size: 36px;
+    color:rgb(209, 150, 11);
+    font-weight: 500;
+    
+}
+.hero-content p{
+    font-size: 16px;
+    padding-top: 16px;
+}
+button{
+    width: 180px;
+    padding: 12px 18px;
+    border: 10px;
+    border-radius: 20px;
+}
+.cta-button{
+    text-align: center;
+    background: #666d2f;
+margin-top: 35px;
+}
+.cta-button:hover{
+  box-shadow: 0,0;
+    transition: 0.5s;
+  background: linear-gradient(to right, #ff105f,#ffad06);
+}
+.hero-image{
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 230px;
+}
+.hero-image h4{
+    font-weight: 700;
+    margin-top: 14px;
+}
+.box h2{
+    padding: 16px;
+    font-size: 24px;
+    color: rgb(86, 2, 195);
+}
+img{
+margin-top: 50%;
+    height: 280px;
+    width: 380px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 6%;
+}
+.hero-image img:hover{
+    cursor: pointer;
+    transition: 0.5s;
+   transform: translateY(-10px);
+ background: linear-gradient(to right, #ff105f,#ffad06);
+}
+footer{
+  bottom: 0;
+   background: rgb(1, 79, 23);
+align-items: center;
+   }
+   footer .end{
+text-align: center;
+
+   }
+   footer .end p{
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
